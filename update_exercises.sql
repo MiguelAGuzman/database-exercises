@@ -1,7 +1,15 @@
-SELECT * FROM albums AS name;
-SELECT * FROM albums AS release_date < 1980;
-SELECT * FROM albums AS artist = 'Michael Jackson';
+SELECT * FROM albums;
 
+SELECT * FROM albums WHERE release_date < 1980;
+SELECT * FROM albums WHERE artist = 'Michael Jackson';
+
+SELECT * FROM albums;
 UPDATE albums
 SET sales = sales * 10;
-WHERE sales;
+
+SELECT * FROM albums WHERE release_date < 1980;
+UPDATE albums
+SET release_date = release_date - 100
+WHERE release_date < 1980;
+
+SELECT * FROM albums WHERE artist = 'Michael Jackson';
