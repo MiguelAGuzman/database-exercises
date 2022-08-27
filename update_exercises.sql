@@ -16,3 +16,6 @@ SELECT * FROM albums WHERE artist = 'Michael Jackson';
 UPDATE albums
 SET artist = 'Peter Jackson'
 WHERE artist = 'Michael Jackson';
+
+
+SELECT * FROM albums WHERE artist = 'Michael Guzman';
