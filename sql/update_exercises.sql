@@ -18,4 +18,4 @@ SET artist = 'Peter Jackson'
 WHERE artist = 'Michael Jackson';
 
 
-SELECT * FROM albums WHERE artist = 'Michael Guzman';
+SELECT * FROM albums WHERE artist = 'Michael Jackson';
