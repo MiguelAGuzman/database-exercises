@@ -25,3 +25,9 @@ where last_name like '%q%'
   and not last_name like '%qu%'
 group by last_name
 order by count_employees;
+
+select count(*) as count_employees,
+from employees
+where first_name = 'Irena'
+   or first_name = 'Vidya'
+   or first_name = 'Maya';
