@@ -31,3 +31,14 @@ from employees
 where first_name = 'Irena'
    or first_name = 'Vidya'
    or first_name = 'Maya';
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import sneed.venusrestblog.data.Post;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@RestController
+@RequestMapping(value = "/api/posts", headers = "Accept=application/json")
